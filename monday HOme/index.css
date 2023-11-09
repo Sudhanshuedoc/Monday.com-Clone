@@ -1,0 +1,551 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    list-style-type: none;
+}
+
+#nav {
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 7vh;
+    display: flex;
+    padding: 11px 0px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+}
+
+.nav1 {
+    width: 67vw;
+    height: 4vh;
+    /* border: 1px solid blue; */
+}
+
+.nav2 {
+    width: 33vw;
+    /* border: 1px solid brown; */
+}
+
+#images {
+    width: 168.5px;
+    height: 42px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 32px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+nav li {
+    float: left;
+
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+    color: #4a4e69;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+li a:hover {
+    /* background-color: #e3d5ca; */
+    color: #8338ec;
+
+
+    border-radius: 10px;
+}
+
+li button {
+    color: white;
+    background-color: #6161ff;
+    border: none;
+    width: 9vw;
+    height: 6vh;
+    border-radius: 22px;
+    position: relative;
+    top: 2.5px;
+    left: 20px;
+}
+
+li button:hover {
+    background-color: #4141dd;
+}
+
+#body {
+    width: 100%;
+    height: 650px;
+    /* border: 1px solid blue; */
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.314);
+}
+
+#body div {
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+#body #left h1 {
+    font-size: 54px;
+    font-family: 'Poppins', sans-serif;
+    color: #323338;
+}
+
+#body #left {
+    width: 90%;
+    height: 60%;
+    /* border: 1px solid red; */
+    margin: auto;
+    position: relative;
+    top: 90px;
+}
+
+#left-btn {
+    color: white;
+    background-color: #6161ff;
+    border: none;
+    width: 14vw;
+    height: 7vh;
+    border-radius: 25px;
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+}
+
+#left-btn:hover {
+    background-color: #4141dd;
+}
+
+#left para {
+    color: #323338;
+}
+
+#built {
+    position: relative;
+    bottom: 17px;
+}
+
+#left>h1+p {
+    font-size: 20px;
+    position: relative;
+    bottom: 45px;
+    font-weight: 200;
+}
+
+#right #top {
+    width: 90%;
+    height: 8%;
+    margin-top: 90px;
+    display: flex;
+    border-bottom: 1px solid grey;
+
+
+}
+
+#right #top div {
+    width: 33.3%;
+    height: 100%;
+    /* border: 1px solid blue; */
+
+}
+
+#right #top div img {
+    width: 40px;
+    height: 40px;
+
+
+}
+
+#right #bottom {
+    width: 90%;
+    height: 60%;
+    margin-top: 15px;
+
+
+}
+
+#right #bottom img {
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+#wm {
+    border-bottom: 5px solid #6a994e;
+}
+
+#crm {
+    border-bottom: 5px solid #006d77;
+}
+
+#dev {
+    border-bottom: 5px solid #f77f00;
+}
+
+.wm {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+#companies {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#flexcom {
+    width: 80%;
+    height: 5vh;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    gap: 40px;
+}
+
+#flexcom div {
+    width: 12%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+
+#flexcom div img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#companies h3 {
+    font-size: 40px;
+    color: #323338;
+    line-height: 60px;
+}
+
+#workOs {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+
+}
+
+#workOs div {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid blue; */
+
+
+}
+
+#workOs button {
+    color: white;
+    background-color: #6161ff;
+    border: none;
+    width: 14vw;
+    height: 7vh;
+    border-radius: 25px;
+    font-size: 16px;
+    position: relative;
+}
+
+#dark {
+    width: 100%;
+    height: 460px;
+    background-color: #181b34;
+    text-align: center;
+    padding-top: 20px;
+
+
+
+}
+
+#dark h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#dark p {
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+#workflow {
+    margin-top: 40px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+#workflow h1 {
+    font-size: 44px;
+    font-family: poppins;
+    color: #333333;
+}
+
+#automation {
+    width: 70%;
+    height: 120px;
+    /* border: 1px solid blue; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#automation div {
+    /* border: 1px solid red; */
+    padding-top: 15px;
+
+}
+
+#automation div:hover {
+    /* border: 1px solid red; */
+    background-color: #84858867;
+    border-radius: 14px;
+
+}
+
+
+#automation img {
+    width: 40px;
+    height: 40px;
+}
+
+#iteration {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 500px;
+    display: flex;
+    margin: 60px auto;
+    gap: 40px;
+
+}
+
+#iteration div {
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+
+#iteration div:nth-child(1) {
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+
+#iteration img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#iteration h1 {
+    margin-top: 150px;
+    font-size: 35px;
+    color: #333333;
+}
+
+#full_image {
+    width: 90%;
+    height: 700px;
+}
+
+#full_image img {
+    width: 100%;
+    height: 100%;
+}
+
+#Pricing {
+    width: 70%;
+    height: 550px;
+    /* border: 1px solid red; */
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+#Pricing>div {
+    /* border: 1px solid blue; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 3vh;
+}
+
+#Pricing div p {
+    color: #323338;
+}
+
+#Pricing>div:hover {
+    /* border: 1px solid blue; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#Pricing div div {
+    /* border: 1px solid cyan; */
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+
+
+hr.style-five {
+    border: 0;
+    height: 0;
+    /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+
+#Pricing ul {
+    line-height: 30px;
+}
+
+/* #pricing button {} */
+#support {
+    width: 80%;
+    height: 500px;
+    margin: 80px auto;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+
+}
+
+#support div:nth-child(1) {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid cyan; */
+
+}
+
+#support div:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid cyan; */
+
+}
+
+#support button {
+    margin-top: 60px;
+    border: none;
+    width: 10vw;
+    height: 7vh;
+    background-color: #6161ff;
+    border-radius: 25px;
+    color: white;
+
+}
+
+#winning {
+
+    width: 70%;
+    height: 380px;
+    /* border: 1px solid red; */
+    margin: 30px auto;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+
+}
+
+
+
+#winning div div {
+    /* border: 1px solid cyan; */
+    width: 90%;
+    height: 86%;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+#winning div div:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#before_footer {
+    width: 100%;
+    height: 250px;
+    background-color: #181b34;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+#before_footer h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#before_footer button {
+    margin-top: 30px;
+    width: 10vw;
+    height: 6vh;
+    background-color: #8338ec;
+    color: white;
+    border-radius: 5vh;
+    border: none;
+}
+
+#footer {
+    margin-top: 30px;
+    display: grid;
+    width: 96%;
+    margin: auto;
+    height: 500px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+/* #footer div {
+    border: 1px solid red;
+
+} */
+
+.mar {
+    color: white;
+
+    margin-top: 20px;
+}
+
+#footer div p a {
+    font-weight: 100;
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+}
+
+.lin a {
+    font-weight: bolder;
+    font-size: 245px;
+
+
+}
